@@ -15,7 +15,7 @@ const App = () => {
       return r.keys().map(r);
     }
     
-    const images = importAll(require.context('./../../img', false, /\.(png|jpe?g|svg)$/));
+    const images = importAll(require.context('./img', false, /\.(png|jpe?g|svg)$/));
     let recycle = importAll(require.context('./../public/cycle'))
 
     recycle =  recycle.filter(el => {
