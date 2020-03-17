@@ -43,8 +43,8 @@
 
    <div id="links" style="position: fixed; z-index:50; font-size: 13px; 
     top:20px; right: 20px; font-family: 'Helvetica'; font-weight:bold;">
-    <a id="about" href="about.html" onmouseover="about()" onmouseleave="aboutoff()">About </a>&nbsp; 
 
+    <a id="about" href="about.html" onmouseover="about()" onmouseleave="aboutoff()">About </a>&nbsp; 
     <a href="mailto:maroussia@andreacrews.com">Contact</a> &nbsp;
     <!--<a id="clients"  onmouseover="clientslist()" onmouseleave="clientslistoff()">Clients</a> &nbsp;-->
     <a href="http://fr.linkedin.com/in/maroussia-rebecq-000a671a" target = "_blank" >LinkedIn</a> &nbsp;
@@ -53,19 +53,7 @@
     <a href="http://minimall-consulting.com/" target = "_blank" >MiNiMALL</a> &nbsp;
   </div>  
 
-  <style>
-    @media  (200px <= width <= 700px) {
-      #links{
-       left: 20px;
-       margin-top: 20px;
-       position: fixed;
-       font-size: 13px;
-       width: 120px;
-     }
-     #links a {display: block; margin-bottom: -10px;}
-    }
-    
-    </style>
+
 
     <div id="aboutimg" style="margin-left: 10px;"><img src="about3.jpg" style="  position: relative; top:  50px;  ">
    <img src="about.png" style=" position: relative; top:  50px;  ">
@@ -142,3 +130,17 @@ L'image de marque d'Andrea Crews s’impose comme celle d'un aimant collaboratif
 <b>Jean Marie Durand</b>
 </div>
 
+<style>
+  @media  (100px <= width <= 700px) {
+    #links{
+      display: none;
+     left: 20px;
+     margin-top: 20px;
+     position: fixed;
+     font-size: 13px;
+     width: 120px;
+   }
+   #links a {display: none;}
+  }
+  
+  </style>
