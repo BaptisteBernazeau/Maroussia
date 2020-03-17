@@ -46,13 +46,13 @@
 .pool1 {
   width: 60px;
   margin-left:40px;
-  margin-bottom: -100px;
+  margin-bottom: -20px;
 }
 
 
 .pool2 {
   width: 50px;
-  margin-bottom: -40px;
+  margin-bottom: 10px;
   margin-left:50px;
 
 
@@ -68,7 +68,7 @@
 
 .pool4 {
   width: 50px;
-  margin-bottom: -60px;
+  margin-bottom: -20px;
   margin-left:40px;
 
 
@@ -76,7 +76,7 @@
 
 .pool5 {
   height: 70px;
-  margin-bottom: -70px;
+  margin-bottom: -20px;
   margin-left:40px;
 
 
@@ -100,7 +100,7 @@
 
 .pool8 {
   height: 60px;
-  margin-bottom: -20px;
+  margin-bottom: -10px;
   margin-left:50px;
 
 
@@ -108,7 +108,7 @@
 
 .pool9 {
   width: 40px;
-  margin-bottom: -110px;
+  margin-bottom: -40px;
   margin-left:80px;
 
 
