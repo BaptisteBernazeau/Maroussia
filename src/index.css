@@ -24,10 +24,12 @@ a{text-decoration: none ; color: black;}
       -moz-transition-property: -moz-transform;
       -o-transition-property: -o-transform;
       transition-property: transform;
+      position:  fixed;
+      top: 20px;
   }
 
   .stik:hover{	 transform: rotate(540deg); }
-  .stik{top: 50px; left: 35px; position: fixed;	 transition: transform .2s ease-in-out; /* Animation */}
+  .stik{top: 50px;	position: fixed; transition: transform .2s ease-in-out; /* Animation */}
 
 /*
  #overlay{
