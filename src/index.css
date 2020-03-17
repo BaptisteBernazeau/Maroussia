@@ -29,7 +29,7 @@ a{text-decoration: none ; color: black;}
   }
 
   .stik:hover{	 transform: rotate(540deg); }
-  .stik{top: 50px; left:30px;	position: fixed; transition: transform .2s ease-in-out; /* Animation */}
+  .stik{top: 50px; left: 30px;	position: fixed; transition: transform .2s ease-in-out; /* Animation */}
 
 /*
  #overlay{
