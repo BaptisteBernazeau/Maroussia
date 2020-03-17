@@ -77,7 +77,7 @@ const App = () => {
         <div style={{position: "fixed", zIndex:"50", fontSize: "350px", top: "150px", left: "23px"}}>
           <img src={recycle}  width="70px;" onClick={()  => {
             forceUpdate();
-            setIndex(Math.floor(Math.random() * (14 - 0 + 1)));
+            setIndex(Math.floor(Math.random() * (13 - 0 + 1)));
           }} 
           className="stik" alt=""></img>
         </div>
